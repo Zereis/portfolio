@@ -1,3 +1,44 @@
+# 💼 David Hoang – Developer Portfolio
+
+Welcome to my personal developer portfolio built with **React**!  
+This portfolio highlights who I am, the work I do, and how to get in touch with me.
+
+![Portfolio Screenshot](./src/assets/cv.png) <!-- Replace with a real screenshot or a link to your live demo -->
+
+---
+
+## 🚀 Live Demo
+
+👉 [https://your-portfolio-url.com](https://your-portfolio-url.com) *(if hosted on Vercel, Netlify, etc.)*
+
+---
+
+## 🧠 About the Project
+
+This React-based single-page portfolio is designed to be clean, responsive, and easy to navigate. It includes:
+
+- An **introductory section** with a short bio
+- A personal **"About Me"** section
+- A **Projects portfolio** with real clickable GitHub links
+- A **contact form** with form validation
+- Reusable components (`Header`, `Footer`)
+- Hosted assets including profile photo and project screenshots
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Functional Components + Hooks)
+- **CSS** (Modular styles and layout)
+- **JSX**
+- Assets imported and managed locally (images, logos)
+
+---
+
+## 🧱 Project Structure
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
