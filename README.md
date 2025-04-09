@@ -3,7 +3,7 @@
 Welcome to my personal developer portfolio built with **React**!  
 This portfolio highlights who I am, the work I do, and how to get in touch with me.
 
-![Portfolio Screenshot](./src/assets/cv.png) <!-- Replace with a real screenshot or a link to your live demo -->
+![Portfolio Screenshot](./src/assets/portfolio.png) <!-- Replace with a real screenshot or a link to your live demo -->
 
 ---
 
