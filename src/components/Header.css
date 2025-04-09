@@ -1,0 +1,27 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: lightgreen;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+    text-align: center;
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    display: inline-flex; /* Use flex to align icon and text */
+    align-items: center; /* Vertically align icon and text */
+  }
+  
+  nav a svg {
+    margin-right: 5px; /* Add spacing between icon and text */
+    font-size: 1.2em; /* Adjust icon size */
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }

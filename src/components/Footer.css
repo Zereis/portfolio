@@ -1,0 +1,24 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.2em; /* Increase font size */
+  }
+  
+  footer a {
+    color: lightgray;
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-flex; /* Use flex to align icon and text */
+    align-items: center; /* Vertically align icon and text */
+  }
+  
+  footer a svg {
+    margin-right: 5px; /* Add spacing between icon and text */
+    font-size: 1.5em; /* Increase icon size */
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
