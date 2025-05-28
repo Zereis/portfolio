@@ -54,7 +54,7 @@ const projects = [
     image: funny9,
     title: "2D Endless Runner Game",
     desc: "Mobile app game: Casual 2D endless runner made in Android Studio. Dodge obstacles , collect coins , and aim for a high score as the game speeds up over time. Scores saved in a database for a global leaderboard",
-    link: "https://github.com/Zereis/tour-master"
+    link: "https://github.com/Zereis/2D-Endless-Runner-Game"
   },
 
 
