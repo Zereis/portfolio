@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1b6bbc72.css",
-    "main.js": "/portfolio/static/js/main.be8d1a99.js",
+    "main.css": "/portfolio/static/css/main.79ca3289.css",
+    "main.js": "/portfolio/static/js/main.6026d2d5.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/cake.png": "/portfolio/static/media/cake.4871728af77cc051a122.png",
     "static/media/trippy.png": "/portfolio/static/media/trippy.16fddb89d4b709c73f5d.png",
+    "static/media/detached.png": "/portfolio/static/media/detached.1345b8ebc5a127279572.png",
+    "static/media/weather.png": "/portfolio/static/media/weather.f7a986916b00b09cc466.png",
+    "static/media/gameshop.png": "/portfolio/static/media/gameshop.6b59a56bf4e98819b3a7.png",
+    "static/media/download.png": "/portfolio/static/media/download.45260c1d2b41b608ec8e.png",
+    "static/media/E-Commerce.png": "/portfolio/static/media/E-Commerce.d1a9711a963d0416c08d.png",
     "static/media/David Hoang.jpg": "/portfolio/static/media/David Hoang.fae4c3ce0de2ab13c4fa.jpg",
+    "static/media/bubble.png": "/portfolio/static/media/bubble.cbec3bdd5e624e6bae1e.png",
     "static/media/monkey.jpeg": "/portfolio/static/media/monkey.a0a015609ce1d0be8227.jpeg",
+    "static/media/Expense-Tracker.png": "/portfolio/static/media/Expense-Tracker.166d84f4ae6235c42d8e.png",
+    "static/media/game.jpg": "/portfolio/static/media/game.85e1207054392d847d9a.jpg",
     "static/media/cv.png": "/portfolio/static/media/cv.5060a90431ac5e08345d.png",
+    "static/media/skattplanbild2.png": "/portfolio/static/media/skattplanbild2.78d454d6ef238c978d8d.png",
     "index.html": "/portfolio/index.html",
-    "main.1b6bbc72.css.map": "/portfolio/static/css/main.1b6bbc72.css.map",
-    "main.be8d1a99.js.map": "/portfolio/static/js/main.be8d1a99.js.map",
+    "main.79ca3289.css.map": "/portfolio/static/css/main.79ca3289.css.map",
+    "main.6026d2d5.js.map": "/portfolio/static/js/main.6026d2d5.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b6bbc72.css",
-    "static/js/main.be8d1a99.js"
+    "static/css/main.79ca3289.css",
+    "static/js/main.6026d2d5.js"
   ]
 }
