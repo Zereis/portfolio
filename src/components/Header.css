@@ -2,26 +2,73 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: lightgreen;
-    padding: 10px 0;
-    border-bottom: 1px solid #ddd;
+    background-color: #007bff;
+    padding: 16px 0;
+    border-bottom: 3px solid #ddd;
     z-index: 1000;
     text-align: center;
+    font-size: 1.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
-  nav a {
-    margin: 0 15px;
+  .menu-toggle {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+    display: none;
+    margin-right: 20px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 22px;
+  }
+  
+  .nav-links a {
     text-decoration: none;
     color: black;
-    display: inline-flex; /* Use flex to align icon and text */
-    align-items: center; /* Vertically align icon and text */
+    display: inline-flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.1em;
   }
   
-  nav a svg {
-    margin-right: 5px; /* Add spacing between icon and text */
-    font-size: 1.2em; /* Adjust icon size */
+  .nav-links a svg {
+    margin-right: 8px;
+    font-size: 1.4em;
   }
   
-  nav a:hover {
+  .nav-links a:hover {
     text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 800px) {
+    .menu-toggle {
+      display: block;
+    }
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      background: #007bff;
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+      padding: 24px 0;
+      display: none;
+      border-bottom: 3px solid #ddd;
+    }
+    .nav-links.open {
+      display: flex;
+    }
+    nav {
+      justify-content: flex-start;
+      padding: 10px 0 0 10px;
+    }
   }

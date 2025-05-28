@@ -7,19 +7,15 @@ function Footer() {
     <footer>
       <p>© {new Date().getFullYear()} Your Name</p>
       <p>
-        <a href="https://instagram.com" target="_blank" rel="noreferrer">
-          <FaInstagram /> Instagram
-        </a>{' '}
-        •
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/david-hoang-07b186170/" target="_blank" rel="noreferrer">
           <FaLinkedin /> LinkedIn
         </a>{' '}
         •
-        <a href="https://github.com" target="_blank" rel="noreferrer">
+        <a href="https://github.com/Zereis" target="_blank" rel="noreferrer">
           <FaGithub /> Github
         </a>{' '}
         •
-        <a href="mailto:youremail@example.com">
+        <a href="mailto:davidvinh97@gmail.com">
           <FaEnvelope /> Email
         </a>
       </p>

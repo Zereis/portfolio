@@ -11,13 +11,16 @@ body, html {
 
 .section {
   padding: 100px 20px;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #fff; /* Set default text color to white for better contrast */
 }
 
+#home.section {
+  background-color: #f0f0f0; /* Light background for home section */
+  color: black; /* Set text color to black for better contrast */
+}
 /* Apply dark blue background to the about section */
 #about.section {
   background-color: #003366; /* Dark blue color */
@@ -50,8 +53,9 @@ footer{
 }
 
 .profile-image {
-  width: 600px; /* Adjust this value to make it smaller */
-  height: 600px; /* Adjust this value to make it smaller */
+  width: 300px;
+  max-width: 90vw;
+  height: auto;
   border-radius: 50%;
   object-fit: cover;
   margin: 20px auto;
@@ -148,7 +152,8 @@ footer{
   padding: 15px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-  border-radius: 6px;
+  width: 600px;
+  border-radius: 40px;
   font-size: 1.5em;
 }
 
@@ -172,6 +177,12 @@ footer{
 }
 
 /* ... your existing App.css styles ... */
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
 
 /* Mobile Styles (up to 768px width) */
 @media (max-width: 768px) {
@@ -233,3 +244,66 @@ footer{
 }
 
 /* Desktop Styles (1025px and above) - Your existing styles will apply */
+
+#home h1,
+#about h2,
+#portfolio h2,
+#contact h2 {
+  font-size: 3.5em;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: black;
+}
+
+#about.section,
+#contact.section {
+  color: #fff;
+}
+
+#about h2,
+#contact h2 {
+  color: #fff;
+}
+
+#about.section p {
+  font-size: 1.5em;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.carousel button {
+  font-size: 2em;
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 0 16px;
+  transition: color 0.2s;
+}
+.carousel button:hover {
+  color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  #home h1,
+  #about h2,
+  #portfolio h2,
+  #contact h2 {
+    font-size: 2em;
+  }
+  #about.section p,
+  #home p {
+    font-size: 1em;
+  }
+}

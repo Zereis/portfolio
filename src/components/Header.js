@@ -1,22 +1,29 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
-import { FaHome, FaUser, FaBriefcase, FaEnvelope } from 'react-icons/fa'; // Import icons
+import { FaHome, FaUser, FaBriefcase, FaEnvelope, FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => setMenuOpen((open) => !open);
+  const handleLinkClick = () => setMenuOpen(false);
+
   return (
     <nav>
-      <a href="#home">
-        <FaHome /> Home
-      </a>
-      <a href="#about">
-        <FaUser /> About
-      </a>
-      <a href="#portfolio">
-        <FaBriefcase /> Projects
-      </a>
-      <a href="#contact">
-        <FaEnvelope /> Contact
-      </a>
+      <button className="menu-toggle" onClick={handleMenuToggle} aria-label="Toggle menu">
+        {menuOpen ? <FaTimes /> : <FaBars />}
+      </button>
+      <div className={`nav-links${menuOpen ? ' open' : ''}`}>
+        <a href="#home" onClick={handleLinkClick}>
+          <FaHome /> Home
+        </a>
+        <a href="#about" onClick={handleLinkClick}>
+          <FaUser /> About
+        </a>
+        <a href="#portfolio" onClick={handleLinkClick}>
+          <FaBriefcase /> Projects
+        </a>
+      </div>
     </nav>
   );
 };

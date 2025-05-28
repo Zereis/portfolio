@@ -3,22 +3,43 @@ footer {
     color: white;
     padding: 20px 0;
     text-align: center;
-    font-size: 1.2em; /* Increase font size */
+    font-size: 1.2em;
   }
   
   footer a {
     color: lightgray;
     text-decoration: none;
     margin: 0 15px;
-    display: inline-flex; /* Use flex to align icon and text */
-    align-items: center; /* Vertically align icon and text */
+    display: inline-flex;
+    align-items: center;
   }
   
   footer a svg {
-    margin-right: 5px; /* Add spacing between icon and text */
-    font-size: 1.5em; /* Increase icon size */
+    margin-right: 5px;
+    font-size: 1.5em;
   }
   
   footer a:hover {
     text-decoration: underline;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    footer {
+      font-size: 1em;
+      padding: 14px 0;
+    }
+    footer p {
+      margin: 8px 0;
+    }
+    footer a {
+      margin: 6px 8px;
+      font-size: 1em;
+    }
+    footer p:last-child {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: center;
+    }
   }
