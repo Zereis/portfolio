@@ -33,8 +33,8 @@ const projects = [
   },
     {
     image: funny13,
-    title: "Weather App ",
-    desc: "I undertook the enhancement of the Weather App React project (originally from fireclint) with the goal of advancing my skills in both front-end and back-end development, as well as API integration. The project has evolved from a purely front-end application to a fullstack solution with the following key contributions and improvements:",
+    title: "Film i Malmö",
+    desc: "Film i Malmö is a modern web application for discovering and exploring cinema events in Malmö. Users can browse upcoming and past film screenings, view detailed event information, and contact the organization directly through a secure form with reCAPTCHA protection. The platform features user authentication, role-based admin access, and a responsive design for both desktop and mobile devices. Built with React and Supabase, the project demonstrates skills in frontend development, user experience, and secure, scalable web architecture.",
     link: "https://github.com/owenboy9/film-i-malmo"
   },
   {
