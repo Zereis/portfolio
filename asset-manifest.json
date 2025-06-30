@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.79ca3289.css",
-    "main.js": "/portfolio/static/js/main.30dabfe8.js",
+    "main.js": "/portfolio/static/js/main.3ffc7bae.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/cake.png": "/portfolio/static/media/cake.4871728af77cc051a122.png",
     "static/media/trippy.png": "/portfolio/static/media/trippy.16fddb89d4b709c73f5d.png",
+    "static/media/filmimalmo.png": "/portfolio/static/media/filmimalmo.4ad0e06a7fec81d1bb2f.png",
     "static/media/detached.png": "/portfolio/static/media/detached.1345b8ebc5a127279572.png",
     "static/media/weather.png": "/portfolio/static/media/weather.f7a986916b00b09cc466.png",
     "static/media/gameshop.png": "/portfolio/static/media/gameshop.6b59a56bf4e98819b3a7.png",
@@ -19,11 +20,11 @@
     "static/media/skattplanbild2.png": "/portfolio/static/media/skattplanbild2.78d454d6ef238c978d8d.png",
     "index.html": "/portfolio/index.html",
     "main.79ca3289.css.map": "/portfolio/static/css/main.79ca3289.css.map",
-    "main.30dabfe8.js.map": "/portfolio/static/js/main.30dabfe8.js.map",
+    "main.3ffc7bae.js.map": "/portfolio/static/js/main.3ffc7bae.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79ca3289.css",
-    "static/js/main.30dabfe8.js"
+    "static/js/main.3ffc7bae.js"
   ]
 }
