@@ -16,6 +16,7 @@ import funny9 from './assets/game.jpg';
 import funny10 from './assets/gameshop.png';
 import funny11 from './assets/E-Commerce.png';
 import funny12 from './assets/Expense-Tracker.png';
+import funny13 from './assets/filmimalmo.png';
 
 const projects = [
   {
@@ -29,6 +30,12 @@ const projects = [
     title: "Event Planner",
     desc: "Event Planner is a feature-rich React application designed to help users efficiently manage tasks, events, and schedules. It features a sleek interface, an interactive calendar, and powerful task management tools—perfect for organizing your daily, weekly, or long-term activities.",
     link: "https://github.com/Zereis/Event-planner"
+  },
+    {
+    image: funny13,
+    title: "Weather App ",
+    desc: "I undertook the enhancement of the Weather App React project (originally from fireclint) with the goal of advancing my skills in both front-end and back-end development, as well as API integration. The project has evolved from a purely front-end application to a fullstack solution with the following key contributions and improvements:",
+    link: "https://github.com/owenboy9/film-i-malmo"
   },
   {
     image: funny6,
@@ -135,16 +142,16 @@ function App() {
             Hello! I'm a recently graduated system developer with a strong passion for crafting clean, efficient, and user-friendly web solutions. My journey into web development has been incredibly rewarding, and I'm eager to apply my skills to real-world projects.
           </p>
           <p>
-            My expertise lies in building responsive and dynamic web applications using modern technologies. I'm proficient in React, and I've successfully completed several projects that demonstrate my ability to deliver high-quality web experiences.
+            My expertise lies in building responsive and dynamic web applications using modern technologies. While I have experience with frontend development, my main interest and goal is to work as a <strong>fullstack developer</strong>. I enjoy working with both backend and frontend technologies to deliver complete, robust solutions.
           </p>
           <p>
-            I believe in continuous learning and staying up-to-date with the latest industry trends. My goal is to create websites that not only look great but also provide seamless functionality and enhance user engagement.
+            I believe in continuous learning and staying up-to-date with the latest industry trends. My goal is to create applications that not only look great but also provide seamless functionality and enhance user engagement.
           </p>
           <p>
-            In the "Projects" section, you'll find examples of my projects, including a fully functional e-commerce website, a dynamic portfolio site, and a real time chat application. These projects showcase my ability to tackle diverse web development challenges and deliver effective solutions.
+            In the "Projects" section, you'll find examples of my work, including a fully functional e-commerce website, a dynamic portfolio site, and a real-time chat application. These projects showcase my ability to tackle diverse web development challenges and deliver effective solutions across the stack.
           </p>
           <p>
-            I am looking for opportunities to grow as a developer and contribute my skills to innovative projects. If you're looking for a dedicated and enthusiastic web developer, I'd love to connect!
+            I am looking for opportunities to grow as a fullstack developer and contribute my skills to innovative projects. If you're looking for a dedicated and enthusiastic developer, I'd love to connect!
           </p>
         </div>
       </section>
